@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 *{margin: 0; padding: 0; border: 0;}
 
 body{
 	border: 1px solid red;
+	font-family: 'Nunito', 'Source Sans Pro', serif;
 }
 
 .holding_body{
@@ -18,9 +21,7 @@ body{
 	max-width: 800px;
 }
 
-ul{
-	padding: 15px;
-	margin: 0px auto 0px auto;
+.topnav, .nav{
 	text-align: center;
 }
 
