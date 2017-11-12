@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:900');
+@import url('https://fonts.googleapis.com/css?family=Michroma');
 *{margin: 0; padding: 0; border: 0;}
-
-@font-face{
-	font-family: 'pirulen-rg';
-	src: url('pirulen_rg.ttf'); /* IE9 compact Modes */
-	src: url('pirulen_rg.ttf') format('truetype');
-}
 
 body{
 /*	border: 1px solid red; */
@@ -53,29 +47,27 @@ body{
 	padding: 5px;
 	width: 50%;
 	background-color: #585858;
-	opacity: 0.8;
+	opacity: 0.85;
 	height: 620px;
 	}
 
 	/* HEADER */
 	.header_sector{
 		/*border :1px solid green;*/
-		font-family: 'pirulen_rg';
 		margin: 5px auto;
 		color: #C0C0C0;
 		padding: 5px;
 		text-align: center;
 	}
 	.header_sector h3{
-		font-family: 'helvetica';
-		font-size: 20px;
+		font-family: 'Michroma';
+		font-size: 18px;
 		letter-spacing: 10px;
-		padding-top: 10px;
-		padding-left: 40px;
-
+		padding-top: 8px;
 	}
 	.header_sector .hive_img{
 		padding-top: 25px;
+		margin-left: -60px;
 	}
 
 	/* ABOUT */
@@ -84,8 +76,8 @@ body{
 		display: block;
 		margin: auto;
 		text-align: center;
-		padding: 100px 15px 15px 15px;
-		max-width: 800px;
+		padding: 50px 15px 15px 50px;
+		max-width: 60%;
 		color: white;
 	}
 
@@ -94,7 +86,7 @@ body{
 
 .holding_skills{
 	/*border: 1px solid black;*/
-	font-family: 'helvetica';
+	font-family: 'Michroma';
 	border-radius: 15px;
 	margin: 25px auto 25px auto;
 	padding: 5px;
@@ -114,7 +106,7 @@ body{
 	}
 	.logo_sector h1{
 		padding-bottom: 20px;
-		font-size: 23PX;
+		font-size: 20PX;
 		letter-spacing: 5px;
 	}
 	.logo_box img{
