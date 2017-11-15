@@ -42,7 +42,7 @@ body{
 /* TITLE AND ABOUT ME SECTOR */
 .holding_body{
 	/*border: 1px solid black;*/
-	border-radius: 15px;
+	/*border-radius: 15px;*/
 	margin: 40px auto 25px auto;
 	padding: 5px;
 	width: 50%;
@@ -61,9 +61,10 @@ body{
 	}
 	.header_sector h3{
 		font-family: 'Michroma';
-		font-size: 18px;
+		font-size: 16px;
 		letter-spacing: 10px;
 		padding-top: 8px;
+		color: #E3873B;
 	}
 	.header_sector .hive_img{
 		padding-top: 25px;
@@ -78,7 +79,19 @@ body{
 		text-align: center;
 		padding: 50px 15px 15px 50px;
 		max-width: 60%;
-		color: white;
+		color: #E3873B;
+	}
+	.about_sector, i{
+		padding-top: 35px;
+		padding-right: 25px;
+		color: #E3873B;
+		transition: 0.8s color;
+	}
+	i:hover{
+		color: #FFF;
+	}
+	.about_sector, p{
+		color: #FFF;
 	}
 
 
@@ -87,7 +100,7 @@ body{
 .holding_skills{
 	/*border: 1px solid black;*/
 	font-family: 'Michroma';
-	border-radius: 15px;
+	/*border-radius: 15px;*/
 	margin: 25px auto 25px auto;
 	padding: 5px;
 	width: 50%;
